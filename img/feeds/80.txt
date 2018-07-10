@@ -1,0 +1,1 @@
+05/01/10 09:02:49 [AppID 15620] Success:  "e:\program files\steam\steamapps\common\dawn of war 2\Install\aux_installer.exe" -uninstall dow2.ai

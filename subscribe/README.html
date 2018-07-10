@@ -1,0 +1,151 @@
+<html>
+<head>
+<title>Скрипт рассылки WR-Subscribe 1.2</title>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+<meta http-equiv="Content-Language" content="ru">
+<meta name="description" content="WR-Subscribe - скрипт подписки и рассылки">
+<META name="KEYWORDS" content="скрипт рассылки, WR-Subscribe">
+<meta name="Resource-type" content="document">
+<meta name="Robots" content="index,follow">
+<style>
+body { background-color: #FFF; margin: 0px; padding: 0px; }
+body { scrollbar-arrow-color: #3B88C5; scrollbar-face-color: #FFFFFF; scrollbar-track-color: #E0E0E0; scrollbar-highlight-color: #FFFFFF; scrollbar-3dlight-color: #C0C0C0; scrollbar-shadow-color: #FFFFFF; scrollbar-darkshadow-color: #B0B0B0; }
+font,th,td,p { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; }
+a { text-decoration: underline; color: #3B88C5; }
+a:visited { text-decoration: underline; color: #3279B2; }
+a:hover, a:active { text-decoration: underline; color: #FF9C00; }
+hr { height: 0px; border: solid #3888C7 0px; border-top-width: 1px;}
+td.row2 { background-color: #FFF; }
+
+table.forumline { background-color: #C0C0C0; }
+table.forumline:hover { background-color: #B0B0B0; }
+</style>
+
+</head>
+
+
+<body  bgcolor="#E5E5E5" text="#000000" link="#006699" vlink="#5493B4">
+
+
+<table width=80% cellspacing=0 cellpadding=10 align=center>
+<tr><td class=bodyline>
+
+<table width=100% cellspacing=0 cellpadding=0>
+<tr>
+<td align="center" width="100%" valign="middle"><span class="maintitle"><h3>Скрипт рассылки WR-Subscribe 1.2</h3></span>
+</td></tr></table>
+<table width=100% cellpadding=4 cellspacing=2 class=forumline>
+
+<tr><th width=100% colspan=2 class=thCornerL height=25 nowrap=nowrap><font color=#FFFFFF>:: <b>Назначение скрипта</b> ::</font></th></tr>
+
+<tr><td width=100% class=row2 valign=middle>
+WR-Subscribe - <B>скрипт позволяющий создать на Вашем сайте рассылку</B> любой информации:
+(Новости, анекдоты, ссылки на программы, объявления сайта и т.д.).
+Для получения рассылок подписчик должен ввести свой емайл в поле подписки.
+Рассылка производится администратором сайта из админпанели. <B>Формат рассылаемых сообщений - html</B>.
+<BR>Скрипт компактен, прост в использовании, максимально универсален в настройке. <B>Работает при 
+любых значения register_globals и error_reporting</B> Вашего хостера.
+В качестве базы данных использует файлы. Что позволяет легко перенести скрипт на другой сайт/хостинг/папку.
+<B>Размер скрипта: - 30,0 Кб.</B><BR>
+
+
+</td></tr>
+
+
+
+<tr><th width=100% colspan=2class=thCornerL height=25 nowrap=nowrap><font color=#FFFFFF>:: <b>Возможности</b> ::</font></th></tr>
+
+<tr><td width=100% class=row2 valign=middle>
+Универсальная панель администратора с возможностями:<BR>
+&nbsp;&nbsp;&nbsp; - <B>просмотра/удаления/добавления подписчиков</B>;<BR>
+&nbsp;&nbsp;&nbsp; - <B>сохранение</B> для последующего просмотра (как в html так и в виде кода) <B>отправленной рассылки</B>;<BR>
+&nbsp;&nbsp;&nbsp; - наличие модуля <B>отписки от рассылки</B>;<BR>
+<hr size=-1 color=navy>
+Изменения в версии 1.1:<BR>
+- сохранена БД без изменений. Скрипт v. 1.1 на 100% совместим с предыдущей версией;<BR>
+- Изменён механизм отправки рассылки. Теперь отправка производится этапами. Шаг задаётся в админпанели. Рекомендуемый размер шага - 20. Скрипт теперь корректно работает при любом кол-ве подписчиков - хоть миллион ;-)<BR>
+- Закрыта XSS-уязвимость.
+</td></tr>
+
+
+<tr><th width=100% colspan=2 class=thCornerL height=25 nowrap=nowrap><font color=#FFFFFF>:: <b>Установка и использование</b> ::</font></th></tr>
+
+<tr><td width=100% class=row2 valign=middle>
+1. Создайте папку на Вашем сервере, например "<B><font color="FF0000">subscribe</font></b>". Закачайте в эту папку все файлы. <BR>
+Выставите ей атрибуты Chmod <B><font color="FF0000">755</b></font><BR>
+   Закачивать и настраивать атрибуты скрипта можно менеджером 
+   "<B><font color="FF0000">Total Commander</font></b>".(Файл -> Изменить атрибуты). <BR>
+<hr color=#224488 size=-1 width=100%>
+2. Далее указан <B>состав скрипта</B> и <B>права доступа</B>, которые необходимо выставить файлам:<BR><BR>
+<table width=100% border=1 cellspacing=0 cellpadding=3><tr><td>Файлы / описание</td><td>Права доступа</td></tr><tr><td>
+    <li><B><font color="FF0000">index.html</b></font> - страница с формой подписки;</li></td><td rowspan=3 align=center><B><font color=red>755</font></b></td></tr><tr><td>
+    <li><B><font color="FF0000">addemail.php</b></font> - страница подписки/отписки от рассылки;</li></td></tr><tr><td>
+    <li><B><font color="FF0000">admin.php</b></font> - cтраница администратора. Пароль - <B>admin</B>;</li></td></tr><tr><td>
+    <li><B><font color="FF0000">README.html</b></font> - этот файл;</li></td><td align=center><B><font color=red>-</font></b></td></tr><tr><td>
+    <li><B><font color="FF0000">config.php</b></font> - файл с конфигурационными данными;</li></td><td rowspan=4 align=center><B><font color=red>644</font></b></td></tr><tr><td>
+    <li><B><font color="FF0000">database.php</b></font> - файл с данными подписчиков;</li></td></tr><tr><td>
+    <li><B><font color="FF0000">allsubscribe.php</b></font> - файл с отправленными рассылками;</li></td></tr><tr><td>
+    <li><B><font color="FF0000">msg.dat</b></font> - временный файл. Используется при рассылке.</li></td></tr>
+</table><BR>
+Увидеть форму для подписки можно по ссылке: <B>http://Мой_сайт/subscribe/index.html</B><BR>
+Но, лучше всего запустить админпанель : <B>http://Мой_сайт/forum/admin.php</B>. Пароль по умолчанию <B>admin</B>
+и из неё получить универсальную форму для подписки (в ней будет указан абсолютный путь к скрипту). Полученная 
+форма будет работать на любой странице Вашего сайта.
+<hr color=#224488 size=-1 width=100%>
+3. На локалхосте права доступа ставить не нужно. Права необходимо выставлять только на серверах в Интернете. Данные права доступа используются на большинстве серверов.
+В случае, если скрипт не запускается и выводится ошибка <B>"Permise Denied"</B> - скорее всего Вы неверно установили права или что то сделали не так. <BR>
+Можете посмотреть <B><a href="http://www.wr-script.ru/info/upload-and-chmod.php" title="настройка chmod прав оступа">статью по настройке прав доступа</a>.</B></font><BR><br>
+Если скрипт не заработал, не бойтесь экспериментировать: <B>изменяйте атрибуты каталога и файлов.</B><BR>
+Иногда, <B>на "сомнительном" хостинге, скрипт запускается с атрибутами 777</B> (вместо 755) и <B>666</B> (вместо 644) для файлов и папки "subscribe" соответственно согласно таблице. <B>Либо 777 для всех файлов.</B>
+<hr color=#224488 size=-1 width=100%>
+P.S. Внимание! Скрипт написан на PHP и не работает на бесплатном хостинге НЕ поддерживающего эту язык, например, www.narod.ru.
+<BR><BR>Если все пункты вы выполнили, а скрипт так и не запустился, ну чтож, 
+заходите на форум по адресу: <a href="http://www.wr-script.ru/forum/index.php"><B>http://www.wr-script.ru/forum/</B></a>
+ и в разделе <B>"WR-Scripts"</B> просмотрите разделы форума, возможно решение Вашей проблемы уже есть на форуме.
+ Если нет - задавайте вопросы. Постарюсь Вам помочь.<BR><BR>
+<font color=red><B>Внимание!</B></font> <B>Не увлекайтесь рассылками писем. При определённых условиях массовую рассылку писем можно трактовать как рассылку СПАМа! 
+А это уже административно (а в некоторых странах уголовно) наказуемое дияние.</b> Делайте выводы.
+
+</td></tr>
+
+
+
+<tr><th width=100% colspan=2 class=thCornerL height=25 nowrap=nowrap><font color=#FFFFFF>:: <b>Лицензия</b> ::</font></th></tr>
+
+<tr><td width=100% class=row2 valign=middle>
+А) Пользоваться <B>WR-Subscribe &copy; можно абсолютно бесплатно при выполнении следующих условий:</B><BR>
+&nbsp;&nbsp;&nbsp; 1. Вы не будете выдавать где-либо данный скрипт как свою разработку;<BR>
+&nbsp;&nbsp;&nbsp; 2. <B>Копирайт вида <font size=-2 color="FF0000">Powered by <a href="http://www.wr-script.ru/" target="_blank"><font color=#FF0000>WR-Subscribe</font></a></font> должен присутствовать на страничке.</B>
+<BR>
+Б) Владельцам сайтов разрешается менять исходный код файлов.<BR>
+В) Друзья, уважайте труд автора - не удаляйте маленький логотип с линком внизу страницы. И будет Вам счастье ;-).<BR>
+Г) Всем у кого на форуме нет ссылки на мой сайт <B>БЕСПЛАТНАЯ поддержка НЕ ОКАЗЫВАЕТСЯ.</B><BR>
+Д) <B>WR-Subscribe</B> распространяется по принципу "as is" (<B>"как есть"</B>).
+Это означает, что вы пользуетесь продуктом на свой риск. Автор не
+дает никаких гарантий и не несет никакой ответственности за возможный
+ущерб и убытки любого рода.
+</td></tr>
+
+
+</table>
+
+
+
+
+<center><font size=-2><small>Powered by <a href="http://www.wr-script.ru/" target="_blank" class="copyright">WR-Subscribe</a> &copy; версия 1.2<br></font>
+
+<font size=3><pre>
+###############################################
+# Разработчик скрипта: WR (Gavrilov Mikhail)  #
+# Имя скрипта: WR-Subscribe                   #
+# Версия скрипта: 1.2                         #
+# Статус: Бесплатный скрипт                   #
+# Требования: PHP 4.3.0                       #
+# Дата разработки: 28 октября 2010 года       #
+# Страница: http://www.wr-script.ru/          #
+# E-mail:   http://www.wr-script.ru/sendmail/ #
+###############################################
+</pre>
+
+</body>
+</html>

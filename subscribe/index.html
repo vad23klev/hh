@@ -1,0 +1,40 @@
+<title>Рассылка WR-Subscribe 1.2</title>
+<HEAD>
+<META content='text/html; charset=windows-1251' http-equiv=Content-Type>
+<STYLE> BODY {FONT-FAMILY: Verdana} TD {FONT-SIZE: 12px} </STYLE>
+</HEAD>
+<BODY bgcolor=#F3F3F3><center>
+
+
+
+<!-- Скопируте код НИЖЕ и вставьте на вашу страничку -->
+
+
+<script language=JavaScript>
+<!--
+function gosub() {
+WRSub=window.open('addemail.php','WRSub','width=350,height=150,left=200,top=200');
+WRSub.focus();
+}
+//-->
+</script>
+
+<table border=1 cellspacing=1 cellpadding=0 width=230>
+<tr height=25><td align=center><font size=3><B>Рассылка</B></font></td></tr>
+<tr><td bgcolor=#FFFFFF align=center>
+<form action='addemail.php' method='get' target='WRSub' name=REPLIER>Подпишитесь на новости нашего сайта! Рассылка ежемесячная!<BR>
+Имя: &nbsp; <input type=text name=name size=20></font><br>
+Email: <input type=text name=email size=20></font>
+<input type=image border=0 src=subscribe.gif alt='Подпишись!' onClick='gosub();'>
+</form>
+</td></tr>
+</table>
+
+
+<!-- Скопируте код ВЫШЕ и вставьте на вашу страничку -->
+
+
+
+
+</BODY>
+</HTML>

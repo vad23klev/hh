@@ -1,0 +1,180 @@
+@charset "utf-8";
+/* CSS Document */
+*{outline:none;margin:0;padding:0}
+
+
+body{
+min-height:100%;
+background-color:#FFF;
+font-family: Tahoma, Arial,Verdana, Helvetica, sans-serif;
+font-size:13px;
+margin:0px 0px 0px 0px;
+padding:0px 0px 0px 0px;
+
+        scrollbar-face-color: #fff;
+        scrollbar-darkshadow-color: #f1f1f1;
+        scrollbar-3dlight-color: #fff;
+        scrollbar-arrow-color: #f1f1f1;
+
+}
+
+/* ПОЗИЦИОНИРОВАНИЕ____________________________*/
+.rt{
+	float: right;
+}
+.lt{
+	float: left;
+}
+img.rt, img.lft{
+	margin: 1em;
+}
+
+input ,select,textarea{font-family: Tahoma, Arial,Verdana, Helvetica, sans-serif;}
+
+
+a:link, a:visited{
+font-family:Tahoma, Arial,Verdana, Helvetica, sans-serif;
+font-size:12px;
+font-weight:normal;
+color: #333;
+}
+
+a:hover{
+font-family:Tahoma, Arial,Verdana, Helvetica, sans-serif;
+font-size:12px;
+font-weight:normal;
+color: #FD6301;
+}
+
+/*table{
+font-family:Tahoma, Arial,Verdana, Helvetica, sans-serif;
+font-size:13px;
+font-weight:normal;
+color: #333;
+}*/
+
+#ordtable {font-size:11px;}
+
+table a {color:#000;}
+
+
+table ul li {margin-left:-20px}
+table ul li a {color:#000;}
+#wlinks {line-height:24px;font-size:13px;}
+#wlinks a {font-size:13px;margin:5px;}
+a.active {color:#666;font-weight:bold;text-decoration:none}
+#wlinks a.gray {color:#666;}
+#wlinks {padding:10px;}
+#wlinks b{margin:10 0px;}
+.lang {position:absolute;right:250px;color:#666;padding:4px; background:#cecece}
+.exit{position:absolute;right:10px;}
+
+input{font-size:14px;}
+textarea{font-size:14px;}
+select{font-size:14px;}
+h1{
+color: #008ED7;
+font-size: 19px;
+font-weight:normal;
+	}
+	
+h1 a{
+color: #008ED7;
+font-size: 19px;
+font-weight:normal;
+	}	
+
+#agoods  a, #agoods2 a{font-size:14px;}	
+#agoods2 {font-size:14px;border-top:1px solid #666;border-right:1px solid #666}
+/*#agoods2 th, #agoods2 td{border-left:1px solid #666;border-bottom:1px solid #666}*/
+.grey {color:#999;}
+
+.way {color:#008ED7 !important;}
+
+#login {
+display:block;
+width:220px;
+border:2px solid #e6e6e6;
+padding:10px;
+
+    background: #ffffff; /* Для старых браузров */
+    background: -moz-linear-gradient(top, #ffffff, #f0f0f0); /* Firefox 3.6+ */
+    /* Chrome 1-9, Safari 4-5 */
+    background: -webkit-gradient(linear, left top, left bottom, 
+                color-stop(0%,#ffffff), color-stop(100%,#f0f0f0));
+    /* Chrome 10+, Safari 5.1+ */
+    background: -webkit-linear-gradient(top, #ffffff, #f0f0f0);
+    background: -o-linear-gradient(top, #ffffff, #f0f0f0); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #ffffff, #f0f0f0); /* IE10 */
+    background: linear-gradient(top, #ffffff, #f0f0f0); /* CSS3 */ 
+    padding: 10px;
+position:absolute;left:50%;top:20px;margin-left:-110px;top:50%;margin-top:-110px;
+}
+
+#login table {width:100%}
+#login table td{padding-top:7px;padding-bottom:7px}
+#login .loginfield{border:none;background:white;width:140px;border:1px solid #d0d0d0}
+#login .loginbutton{border:none;background:white;width:140px;border:1px solid #d0d0d0;
+
+    background: #ffffff; /* Для старых браузров */
+    background: -moz-linear-gradient(top, #ffffff, #f0f0f0); /* Firefox 3.6+ */
+    /* Chrome 1-9, Safari 4-5 */
+    background: -webkit-gradient(linear, left top, left bottom, 
+                color-stop(0%,#ffffff), color-stop(100%,#f0f0f0));
+    /* Chrome 10+, Safari 5.1+ */
+    background: -webkit-linear-gradient(top, #ffffff, #f0f0f0);
+    background: -o-linear-gradient(top, #ffffff, #f0f0f0); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #ffffff, #f0f0f0); /* IE10 */
+    background: linear-gradient(top, #ffffff, #f0f0f0); /* CSS3 */ 
+	width:216px;
+	padding:0 10px;
+
+}
+
+.lefttable {width:280px !important;height:100%;background:#f1f2f4;padding:0px;}
+.lefttable ul  {margin-left:0px;}
+.lefttable ul li {list-style-type:none;margin-left:0px;line-height:22px;display:block;width:265px;position:relative}
+.lefttable ul li ul{margin-left:20px;}
+.lefttable ul li ul li{display:block;width:260px;position:relative}
+.lefttable ul li a{color:#666}
+.dele {position:absolute;top:3px;right:10px}
+.dashed {text-decoration:none;font-size:14px !important;margin:40px !important;margin-left:0 !important}
+a.add {position:absolute;color:#gray !important;top:0;right:0;font-size:9px !important;margin:0 !important;margin-top:5px;border:1px solid gray;text-transform:none !important;text-decoration:none !important;padding:3px;border-radius:4px;-webkit-border-radius:4px;-khtml-border-radius:4px;-moz-border-radius:4px}
+a.strong{font-size:15px}
+
+.fld {width:400px}
+.submit {display:block;width:225px;height:35px;border:none;    
+background: #ffffff; /* Для старых браузров */
+    background: -moz-linear-gradient(top, #ffffff, #f0f0f0); /* Firefox 3.6+ */
+    /* Chrome 1-9, Safari 4-5 */
+    background: -webkit-gradient(linear, left top, left bottom, 
+                color-stop(0%,#ffffff), color-stop(100%,#f0f0f0));
+    /* Chrome 10+, Safari 5.1+ */
+    background: -webkit-linear-gradient(top, #ffffff, #f0f0f0);
+    background: -o-linear-gradient(top, #ffffff, #f0f0f0); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #ffffff, #f0f0f0); /* IE10 */
+    background: linear-gradient(top, #ffffff, #f0f0f0); /* CSS3 */
+	border:1px solid #e0e0e0;color:#666;
+	}
+
+.fld {width:420px;border:1px solid #666}
+.header {font-size:16px;}
+.header a{font-size:10px;color:#000;text-decoration:none;text-transform:uppercase}
+#righttable{padding-left:20px}
+.name {width:300px !important}
+#descr_border {width:660px;border:1px solid #666}
+#content_table td{padding:5px}
+#agoods2 td {padding:5px}
+#agoods td {padding:5px}
+.combo {width:420px;overflow:hidden;border:1px solid #666}
+.arrow {width:420px;overflow:hidden;background:url(/../../img/arrow.jpg) right center no-repeat}
+.fld1 {width:440px;background:rgba(0,0,0,0);border:none}
+.branch {margin-top:10px;margin-left:-5px;margin-bottom:10px}
+
+.branch1 {margin-top:5px;margin-left:-5px;margin-bottom:5px}
+.inpform  td{padding:6px 0px}
+#goodtable td {padding:5px !important}
+#dt th,#dt td {padding:5px}
+#dt th {padding-right:20px}
+#righttable input[type="text"] {width:500px}
+#login input[type="text"] {width:140px !important}

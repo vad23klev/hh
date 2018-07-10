@@ -1,0 +1,3 @@
+User-agent: * 
+Disallow: /main 
+Host: www.saitproject.ru

@@ -1,0 +1,100 @@
+[02-May-2013 18:54:16] PHP Warning:  imagecreatefrompng(/home/aqq10704/public_html/recstyle.ru/img/lenta2.png) [<a href='function.imagecreatefrompng'>function.imagecreatefrompng</a>]: failed to open stream: No such file or directory in /home/aqq10704/public_html/recstyle.ru/resize/resize_class.php on line 239
+[02-May-2013 18:54:16] PHP Warning:  imagesx(): supplied argument is not a valid Image resource in /home/aqq10704/public_html/recstyle.ru/resize/resize_class.php on line 249
+[02-May-2013 18:54:16] PHP Warning:  imagesy(): supplied argument is not a valid Image resource in /home/aqq10704/public_html/recstyle.ru/resize/resize_class.php on line 250
+[02-May-2013 18:54:16] PHP Warning:  imagecopy(): supplied argument is not a valid Image resource in /home/aqq10704/public_html/recstyle.ru/resize/resize_class.php on line 251
+[02-May-2013 18:54:16] PHP Notice:  Headers have already been sent. Could not display image. in /home/aqq10704/public_html/recstyle.ru/resize/resize_class.php on line 263
+[02-May-2013 18:54:16] PHP Warning:  imagecreatefrompng(/home/aqq10704/public_html/recstyle.ru/img/lenta2.png) [<a href='function.imagecreatefrompng'>function.imagecreatefrompng</a>]: failed to open stream: No such file or directory in /home/aqq10704/public_html/recstyle.ru/resize/resize_class.php on line 239
+[02-May-2013 18:54:16] PHP Warning:  imagesx(): supplied argument is not a valid Image resource in /home/aqq10704/public_html/recstyle.ru/resize/resize_class.php on line 249
+[02-May-2013 18:54:16] PHP Warning:  imagesy(): supplied argument is not a valid Image resource in /home/aqq10704/public_html/recstyle.ru/resize/resize_class.php on line 250
+[02-May-2013 18:54:16] PHP Warning:  imagecopy(): supplied argument is not a valid Image resource in /home/aqq10704/public_html/recstyle.ru/resize/resize_class.php on line 251
+[02-May-2013 18:54:16] PHP Notice:  Headers have already been sent. Could not display image. in /home/aqq10704/public_html/recstyle.ru/resize/resize_class.php on line 263
+[02-May-2013 18:54:16] PHP Warning:  imagecreatefrompng(/home/aqq10704/public_html/recstyle.ru/img/lenta2.png) [<a href='function.imagecreatefrompng'>function.imagecreatefrompng</a>]: failed to open stream: No such file or directory in /home/aqq10704/public_html/recstyle.ru/resize/resize_class.php on line 239
+[02-May-2013 18:54:16] PHP Warning:  imagesx(): supplied argument is not a valid Image resource in /home/aqq10704/public_html/recstyle.ru/resize/resize_class.php on line 249
+[02-May-2013 18:54:16] PHP Warning:  imagesy(): supplied argument is not a valid Image resource in /home/aqq10704/public_html/recstyle.ru/resize/resize_class.php on line 250
+[02-May-2013 18:54:16] PHP Warning:  imagecopy(): supplied argument is not a valid Image resource in /home/aqq10704/public_html/recstyle.ru/resize/resize_class.php on line 251
+[02-May-2013 18:54:16] PHP Notice:  Headers have already been sent. Could not display image. in /home/aqq10704/public_html/recstyle.ru/resize/resize_class.php on line 263
+[02-May-2013 18:54:16] PHP Warning:  imagecreatefrompng(/home/aqq10704/public_html/recstyle.ru/img/lenta2.png) [<a href='function.imagecreatefrompng'>function.imagecreatefrompng</a>]: failed to open stream: No such file or directory in /home/aqq10704/public_html/recstyle.ru/resize/resize_class.php on line 239
+[02-May-2013 18:54:16] PHP Warning:  imagesx(): supplied argument is not a valid Image resource in /home/aqq10704/public_html/recstyle.ru/resize/resize_class.php on line 249
+[02-May-2013 18:54:16] PHP Warning:  imagesy(): supplied argument is not a valid Image resource in /home/aqq10704/public_html/recstyle.ru/resize/resize_class.php on line 250
+[02-May-2013 18:54:16] PHP Warning:  imagecopy(): supplied argument is not a valid Image resource in /home/aqq10704/public_html/recstyle.ru/resize/resize_class.php on line 251
+[02-May-2013 18:54:16] PHP Notice:  Headers have already been sent. Could not display image. in /home/aqq10704/public_html/recstyle.ru/resize/resize_class.php on line 263
+[06-May-2013 12:19:17] PHP Warning:  imagesx(): supplied argument is not a valid Image resource in /home/aqq10704/public_html/recstyle.ru/resize/resize_class.php on line 18
+[06-May-2013 12:19:17] PHP Warning:  imagesy(): supplied argument is not a valid Image resource in /home/aqq10704/public_html/recstyle.ru/resize/resize_class.php on line 19
+[06-May-2013 12:19:17] PHP Warning:  Division by zero in /home/aqq10704/public_html/recstyle.ru/resize/resize_class.php on line 169
+[06-May-2013 12:19:17] PHP Warning:  Division by zero in /home/aqq10704/public_html/recstyle.ru/resize/resize_class.php on line 170
+[06-May-2013 12:19:17] PHP Warning:  imagecreatetruecolor() [<a href='function.imagecreatetruecolor'>function.imagecreatetruecolor</a>]: Invalid image dimensions in /home/aqq10704/public_html/recstyle.ru/resize/resize_class.php on line 55
+[06-May-2013 12:19:17] PHP Warning:  imagecopyresampled(): supplied argument is not a valid Image resource in /home/aqq10704/public_html/recstyle.ru/resize/resize_class.php on line 56
+[06-May-2013 12:19:17] PHP Warning:  imagecopyresampled(): supplied argument is not a valid Image resource in /home/aqq10704/public_html/recstyle.ru/resize/resize_class.php on line 186
+[06-May-2013 12:19:17] PHP Notice:  Headers have already been sent. Could not display image. in /home/aqq10704/public_html/recstyle.ru/resize/resize_class.php on line 234
+[06-May-2013 12:19:17] PHP Warning:  imagesx(): supplied argument is not a valid Image resource in /home/aqq10704/public_html/recstyle.ru/resize/resize_class.php on line 18
+[06-May-2013 12:19:17] PHP Warning:  imagesy(): supplied argument is not a valid Image resource in /home/aqq10704/public_html/recstyle.ru/resize/resize_class.php on line 19
+[06-May-2013 12:19:17] PHP Warning:  Division by zero in /home/aqq10704/public_html/recstyle.ru/resize/resize_class.php on line 169
+[06-May-2013 12:19:17] PHP Warning:  Division by zero in /home/aqq10704/public_html/recstyle.ru/resize/resize_class.php on line 170
+[06-May-2013 12:19:17] PHP Warning:  imagecreatetruecolor() [<a href='function.imagecreatetruecolor'>function.imagecreatetruecolor</a>]: Invalid image dimensions in /home/aqq10704/public_html/recstyle.ru/resize/resize_class.php on line 55
+[06-May-2013 12:19:17] PHP Warning:  imagecopyresampled(): supplied argument is not a valid Image resource in /home/aqq10704/public_html/recstyle.ru/resize/resize_class.php on line 56
+[06-May-2013 12:19:17] PHP Warning:  imagecopyresampled(): supplied argument is not a valid Image resource in /home/aqq10704/public_html/recstyle.ru/resize/resize_class.php on line 186
+[06-May-2013 12:19:17] PHP Notice:  Headers have already been sent. Could not display image. in /home/aqq10704/public_html/recstyle.ru/resize/resize_class.php on line 234
+[06-May-2013 12:19:22] PHP Warning:  imagesx(): supplied argument is not a valid Image resource in /home/aqq10704/public_html/recstyle.ru/resize/resize_class.php on line 18
+[06-May-2013 12:19:22] PHP Warning:  imagesy(): supplied argument is not a valid Image resource in /home/aqq10704/public_html/recstyle.ru/resize/resize_class.php on line 19
+[06-May-2013 12:19:22] PHP Warning:  Division by zero in /home/aqq10704/public_html/recstyle.ru/resize/resize_class.php on line 169
+[06-May-2013 12:19:22] PHP Warning:  Division by zero in /home/aqq10704/public_html/recstyle.ru/resize/resize_class.php on line 170
+[06-May-2013 12:19:22] PHP Warning:  imagecreatetruecolor() [<a href='function.imagecreatetruecolor'>function.imagecreatetruecolor</a>]: Invalid image dimensions in /home/aqq10704/public_html/recstyle.ru/resize/resize_class.php on line 55
+[06-May-2013 12:19:22] PHP Warning:  imagecopyresampled(): supplied argument is not a valid Image resource in /home/aqq10704/public_html/recstyle.ru/resize/resize_class.php on line 56
+[06-May-2013 12:19:22] PHP Warning:  imagecopyresampled(): supplied argument is not a valid Image resource in /home/aqq10704/public_html/recstyle.ru/resize/resize_class.php on line 186
+[06-May-2013 12:19:22] PHP Notice:  Headers have already been sent. Could not display image. in /home/aqq10704/public_html/recstyle.ru/resize/resize_class.php on line 234
+[06-May-2013 12:30:37] PHP Warning:  imagesx(): supplied argument is not a valid Image resource in /home/aqq10704/public_html/recstyle.ru/resize/resize_class.php on line 18
+[06-May-2013 12:30:37] PHP Warning:  imagesy(): supplied argument is not a valid Image resource in /home/aqq10704/public_html/recstyle.ru/resize/resize_class.php on line 19
+[06-May-2013 12:30:37] PHP Warning:  Division by zero in /home/aqq10704/public_html/recstyle.ru/resize/resize_class.php on line 169
+[06-May-2013 12:30:37] PHP Warning:  Division by zero in /home/aqq10704/public_html/recstyle.ru/resize/resize_class.php on line 170
+[06-May-2013 12:30:37] PHP Warning:  imagecreatetruecolor() [<a href='function.imagecreatetruecolor'>function.imagecreatetruecolor</a>]: Invalid image dimensions in /home/aqq10704/public_html/recstyle.ru/resize/resize_class.php on line 55
+[06-May-2013 12:30:37] PHP Warning:  imagecopyresampled(): supplied argument is not a valid Image resource in /home/aqq10704/public_html/recstyle.ru/resize/resize_class.php on line 56
+[06-May-2013 12:30:37] PHP Warning:  imagecopyresampled(): supplied argument is not a valid Image resource in /home/aqq10704/public_html/recstyle.ru/resize/resize_class.php on line 186
+[06-May-2013 12:30:37] PHP Notice:  Headers have already been sent. Could not display image. in /home/aqq10704/public_html/recstyle.ru/resize/resize_class.php on line 234
+[06-May-2013 12:30:37] PHP Warning:  imagesx(): supplied argument is not a valid Image resource in /home/aqq10704/public_html/recstyle.ru/resize/resize_class.php on line 18
+[06-May-2013 12:30:37] PHP Warning:  imagesy(): supplied argument is not a valid Image resource in /home/aqq10704/public_html/recstyle.ru/resize/resize_class.php on line 19
+[06-May-2013 12:30:37] PHP Warning:  Division by zero in /home/aqq10704/public_html/recstyle.ru/resize/resize_class.php on line 169
+[06-May-2013 12:30:37] PHP Warning:  Division by zero in /home/aqq10704/public_html/recstyle.ru/resize/resize_class.php on line 170
+[06-May-2013 12:30:37] PHP Warning:  imagecreatetruecolor() [<a href='function.imagecreatetruecolor'>function.imagecreatetruecolor</a>]: Invalid image dimensions in /home/aqq10704/public_html/recstyle.ru/resize/resize_class.php on line 55
+[06-May-2013 12:30:37] PHP Warning:  imagecopyresampled(): supplied argument is not a valid Image resource in /home/aqq10704/public_html/recstyle.ru/resize/resize_class.php on line 56
+[06-May-2013 12:30:37] PHP Warning:  imagecopyresampled(): supplied argument is not a valid Image resource in /home/aqq10704/public_html/recstyle.ru/resize/resize_class.php on line 186
+[06-May-2013 12:30:37] PHP Notice:  Headers have already been sent. Could not display image. in /home/aqq10704/public_html/recstyle.ru/resize/resize_class.php on line 234
+[06-May-2013 12:30:42] PHP Warning:  imagesx(): supplied argument is not a valid Image resource in /home/aqq10704/public_html/recstyle.ru/resize/resize_class.php on line 18
+[06-May-2013 12:30:42] PHP Warning:  imagesy(): supplied argument is not a valid Image resource in /home/aqq10704/public_html/recstyle.ru/resize/resize_class.php on line 19
+[06-May-2013 12:30:42] PHP Warning:  Division by zero in /home/aqq10704/public_html/recstyle.ru/resize/resize_class.php on line 169
+[06-May-2013 12:30:42] PHP Warning:  Division by zero in /home/aqq10704/public_html/recstyle.ru/resize/resize_class.php on line 170
+[06-May-2013 12:30:42] PHP Warning:  imagecreatetruecolor() [<a href='function.imagecreatetruecolor'>function.imagecreatetruecolor</a>]: Invalid image dimensions in /home/aqq10704/public_html/recstyle.ru/resize/resize_class.php on line 55
+[06-May-2013 12:30:42] PHP Warning:  imagecopyresampled(): supplied argument is not a valid Image resource in /home/aqq10704/public_html/recstyle.ru/resize/resize_class.php on line 56
+[06-May-2013 12:30:42] PHP Warning:  imagecopyresampled(): supplied argument is not a valid Image resource in /home/aqq10704/public_html/recstyle.ru/resize/resize_class.php on line 186
+[06-May-2013 12:30:42] PHP Notice:  Headers have already been sent. Could not display image. in /home/aqq10704/public_html/recstyle.ru/resize/resize_class.php on line 234
+[06-May-2013 12:35:49] PHP Warning:  imagesx(): supplied argument is not a valid Image resource in /home/aqq10704/public_html/recstyle.ru/resize/resize_class.php on line 18
+[06-May-2013 12:35:49] PHP Warning:  imagesy(): supplied argument is not a valid Image resource in /home/aqq10704/public_html/recstyle.ru/resize/resize_class.php on line 19
+[06-May-2013 12:35:49] PHP Warning:  Division by zero in /home/aqq10704/public_html/recstyle.ru/resize/resize_class.php on line 169
+[06-May-2013 12:35:49] PHP Warning:  Division by zero in /home/aqq10704/public_html/recstyle.ru/resize/resize_class.php on line 170
+[06-May-2013 12:35:49] PHP Warning:  imagecreatetruecolor() [<a href='function.imagecreatetruecolor'>function.imagecreatetruecolor</a>]: Invalid image dimensions in /home/aqq10704/public_html/recstyle.ru/resize/resize_class.php on line 55
+[06-May-2013 12:35:49] PHP Warning:  imagecopyresampled(): supplied argument is not a valid Image resource in /home/aqq10704/public_html/recstyle.ru/resize/resize_class.php on line 56
+[06-May-2013 12:35:49] PHP Warning:  imagecopyresampled(): supplied argument is not a valid Image resource in /home/aqq10704/public_html/recstyle.ru/resize/resize_class.php on line 186
+[06-May-2013 12:35:49] PHP Notice:  Headers have already been sent. Could not display image. in /home/aqq10704/public_html/recstyle.ru/resize/resize_class.php on line 234
+[06-May-2013 12:35:49] PHP Warning:  imagesx(): supplied argument is not a valid Image resource in /home/aqq10704/public_html/recstyle.ru/resize/resize_class.php on line 18
+[06-May-2013 12:35:49] PHP Warning:  imagesy(): supplied argument is not a valid Image resource in /home/aqq10704/public_html/recstyle.ru/resize/resize_class.php on line 19
+[06-May-2013 12:35:49] PHP Warning:  Division by zero in /home/aqq10704/public_html/recstyle.ru/resize/resize_class.php on line 169
+[06-May-2013 12:35:49] PHP Warning:  Division by zero in /home/aqq10704/public_html/recstyle.ru/resize/resize_class.php on line 170
+[06-May-2013 12:35:49] PHP Warning:  imagecreatetruecolor() [<a href='function.imagecreatetruecolor'>function.imagecreatetruecolor</a>]: Invalid image dimensions in /home/aqq10704/public_html/recstyle.ru/resize/resize_class.php on line 55
+[06-May-2013 12:35:49] PHP Warning:  imagecopyresampled(): supplied argument is not a valid Image resource in /home/aqq10704/public_html/recstyle.ru/resize/resize_class.php on line 56
+[06-May-2013 12:35:49] PHP Warning:  imagecopyresampled(): supplied argument is not a valid Image resource in /home/aqq10704/public_html/recstyle.ru/resize/resize_class.php on line 186
+[06-May-2013 12:35:49] PHP Notice:  Headers have already been sent. Could not display image. in /home/aqq10704/public_html/recstyle.ru/resize/resize_class.php on line 234
+[06-May-2013 12:35:50] PHP Warning:  imagesx(): supplied argument is not a valid Image resource in /home/aqq10704/public_html/recstyle.ru/resize/resize_class.php on line 18
+[06-May-2013 12:35:50] PHP Warning:  imagesy(): supplied argument is not a valid Image resource in /home/aqq10704/public_html/recstyle.ru/resize/resize_class.php on line 19
+[06-May-2013 12:35:50] PHP Warning:  Division by zero in /home/aqq10704/public_html/recstyle.ru/resize/resize_class.php on line 169
+[06-May-2013 12:35:50] PHP Warning:  Division by zero in /home/aqq10704/public_html/recstyle.ru/resize/resize_class.php on line 170
+[06-May-2013 12:35:50] PHP Warning:  imagecreatetruecolor() [<a href='function.imagecreatetruecolor'>function.imagecreatetruecolor</a>]: Invalid image dimensions in /home/aqq10704/public_html/recstyle.ru/resize/resize_class.php on line 55
+[06-May-2013 12:35:50] PHP Warning:  imagecopyresampled(): supplied argument is not a valid Image resource in /home/aqq10704/public_html/recstyle.ru/resize/resize_class.php on line 56
+[06-May-2013 12:35:50] PHP Warning:  imagecopyresampled(): supplied argument is not a valid Image resource in /home/aqq10704/public_html/recstyle.ru/resize/resize_class.php on line 186
+[06-May-2013 12:35:50] PHP Notice:  Headers have already been sent. Could not display image. in /home/aqq10704/public_html/recstyle.ru/resize/resize_class.php on line 234
+[06-May-2013 12:35:54] PHP Warning:  imagesx(): supplied argument is not a valid Image resource in /home/aqq10704/public_html/recstyle.ru/resize/resize_class.php on line 18
+[06-May-2013 12:35:54] PHP Warning:  imagesy(): supplied argument is not a valid Image resource in /home/aqq10704/public_html/recstyle.ru/resize/resize_class.php on line 19
+[06-May-2013 12:35:54] PHP Warning:  Division by zero in /home/aqq10704/public_html/recstyle.ru/resize/resize_class.php on line 169
+[06-May-2013 12:35:54] PHP Warning:  Division by zero in /home/aqq10704/public_html/recstyle.ru/resize/resize_class.php on line 170
+[06-May-2013 12:35:54] PHP Warning:  imagecreatetruecolor() [<a href='function.imagecreatetruecolor'>function.imagecreatetruecolor</a>]: Invalid image dimensions in /home/aqq10704/public_html/recstyle.ru/resize/resize_class.php on line 55
+[06-May-2013 12:35:54] PHP Warning:  imagecopyresampled(): supplied argument is not a valid Image resource in /home/aqq10704/public_html/recstyle.ru/resize/resize_class.php on line 56
+[06-May-2013 12:35:54] PHP Warning:  imagecopyresampled(): supplied argument is not a valid Image resource in /home/aqq10704/public_html/recstyle.ru/resize/resize_class.php on line 186
+[06-May-2013 12:35:54] PHP Notice:  Headers have already been sent. Could not display image. in /home/aqq10704/public_html/recstyle.ru/resize/resize_class.php on line 234

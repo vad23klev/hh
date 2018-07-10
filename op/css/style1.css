@@ -1,0 +1,6 @@
+.header_logo {
+    float: left;
+    width: 335px;
+    height: 86px;
+    background: url(/op/images/logo.jpg) no-repeat 25px 7px;position:relative
+}

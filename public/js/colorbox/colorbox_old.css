@@ -1,0 +1,73 @@
+/*
+    ColorBox Core Style
+    The following rules are the styles that are consistant between themes.
+    Avoid changing this area to maintain compatability with future versions of ColorBox.
+*/
+
+body {font-family: "trebuchet MS", Verdana, sans-serif; font-size: 100.01%; color: #555; background: #fff}
+
+#colorbox, #cboxOverlay, #cboxWrapper{position:absolute; top:0; left:0; z-index:9999;}
+#cboxOverlay{position:fixed; width:100%; height:100%;}
+#cboxMiddleLeft, #cboxBottomLeft{clear:left;}
+#cboxContent{position:relative; }
+#cboxLoadedContent{overflow:auto;background:#fff;padding:2px;}
+#cboxLoadedContent iframe{display:block; width:100%; height:100%; border:0;}
+#cboxTitle{margin:0;}
+#cboxLoadingOverlay, #cboxLoadingGraphic{position:absolute; top:0; left:0; width:100%;}
+#cboxPrevious, #cboxNext, #cboxClose, #cboxSlideshow{cursor:pointer;}
+
+/* 
+    Example user style
+    The following rules are ordered and tabbed in a way that represents the
+    order/nesting of the generated HTML, so that the structure easier to understand.
+*/
+#cboxOverlay{background:#000;}
+#colorbox{background:#fff;}
+    #cboxTopLeft{width:33px; height:33px; background:url(images/ltl.jpg) no-repeat; }
+    #cboxTopRight{width:36px; height:33px; background:url(images/ltr.jpg) no-repeat; }
+    #cboxBottomLeft{width:33px; height:43px; background:url(images/lbl.jpg) #000;}
+    #cboxBottomRight{width:36px; height:43px; background:url(images/lbr.jpg) #000;}
+    #cboxMiddleLeft{width:35px; background:url(images/rback.jpg) no-repeat;}
+    #cboxMiddleRight{width:34px;background:url(images/lback.jpg) no-repeat #000;}
+    #cboxTopCenter{height:33px;background: url(images/top.jpg) no-repeat;}
+    #cboxBottomCenter{height:43px; background:url(images/down.jpg) no-repeat;}
+    #cboxContent{ bottom:-5px;}
+#cboxPhoto {}	
+
+#cboxPhoto2 {-moz-box-shadow:  1px 1px 10px #333333,-1px -1px 10px #333333;   box-shadow: 0 0 10px black;,filter:progid:DXImageTransform.Microsoft.DropShadow(color=black, offx=2, offy=2);}	
+
+
+*html #cboxPhoto {}
+
+        #cboxLoadedContent{margin-bottom:10px;}
+        #cboxTitle{position:absolute; top:-36px; left:0; text-align:center; width:100%; color:#fff; }
+        #cboxCurrent{position:absolute; bottom:-30px;  padding-bottom:0px;left:0px; color:#fff;}
+        #cboxSlideshow{position:absolute; bottom:4px; right:30px; color:#0092ef;}
+        #cboxPrevious{position:absolute; bottom:-28px; padding-bottom:0px; right:60px; background:url(images/previous.png) no-repeat; width:16px; height:16px; text-indent:-9999px;}
+        #cboxPrevious.hover{}
+        #cboxNext{position:absolute; bottom:-28px; padding-bottom:0px;right:40px; background:url(images/next.png) no-repeat; width:16px; height:16px; text-indent:-9999px;}
+
+        *html #cboxNext{position:absolute; bottom:-20px; padding-bottom:0px;right:40px; background:none; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/next.png', sizingMethod='crop'); width:16px; height:16px; }
+
+        *html #cboxPrevious{position:absolute; bottom:-20px; padding-bottom:0px;right:60px; background:none; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/previous.png', sizingMethod='crop'); width:16px; height:16px; }
+
+        *html #cboxClose{position:absolute; bottom:-20px; padding-bottom:0px;right:20px; background:none; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/close.png', sizingMethod='crop'); width:16px; height:16px; }
+
+
+        #cboxLoadingOverlay{background:url(images/loading_background.png) no-repeat center center;}
+        #cboxLoadingGraphic{background:url(images/loading.gif) no-repeat center center;}
+        #cboxClose{position:absolute; bottom:-28px; padding-bottom:0px;right:20px; background:url(images/close.png) no-repeat; width:16px; height:16px; text-indent:-9999px;}
+        #cboxClose.hover{}
+
+/*
+    The following fixes png-transparency for IE6.  
+    It is also necessary for png-transparency in IE7 & IE8 to avoid 'black halos' with the fade transition
+    
+    Since this method does not support CSS background-positioning, it is incompatible with CSS sprites.
+    Colorbox preloads navigation hover classes to account for this.
+    
+    !! Important Note: AlphaImageLoader src paths are relative to the HTML document,
+    while regular CSS background images are relative to the CSS document.
+*/
+
+
